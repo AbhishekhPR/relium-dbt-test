@@ -1,0 +1,11 @@
+name: 'relium_test'
+version: '1.0.0'
+config-version: 2
+
+profile: 'relium_test'
+
+model-paths: ["models"]
+
+models:
+  relium_test:
+    +materialized: view
