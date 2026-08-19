@@ -1,0 +1,7 @@
+relium_test:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: relium_test.duckdb
+      threads: 1

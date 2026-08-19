@@ -1,0 +1,3 @@
+version: 1
+manifest_path: target/manifest.json
+enforcement_mode: shadow
